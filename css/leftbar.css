@@ -1,0 +1,58 @@
+
+/* left-menu */
+.left-menu {
+    width: 25%;
+    background: rgb(7, 3, 39);
+    height: 600px;
+    padding:20px  0px;
+    color: #fff;
+}
+
+
+/* people */
+.people {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 20px;
+
+}
+
+/* numbersofpeople */
+.numbersofpeople{
+    background: rgb(175, 172, 172);
+    color: #fff;
+    padding:3px 10px;
+    border-radius: 50px;
+}
+
+/* list of people */
+.list-people {
+    padding: 10px 0px;
+}
+.list-people div {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.list-people div:hover{
+  background: blue;
+}
+
+.list-people div span{
+ display: block;
+ margin-right: 15px;
+}
+
+.list-people div p{
+  margin-top: 20px;
+}
+
+.list-people div span img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50px;
+}

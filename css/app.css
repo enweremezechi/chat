@@ -1,0 +1,45 @@
+@import url('./mainUser.css');
+@import url('./leftbar.css');
+@import url('./leftbar.css');
+@import url('./chatBody.css');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    width: 100%;
+    font-weight: 600;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+/*header*/
+header {
+    padding: 10px;
+    margin: 0 auto;
+    background: rgba(52, 171, 250, 0.479);
+}
+
+/* container */
+.container {
+    max-width: 1100px;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+/* navbar */
+#navbar .nav-logo {
+    display: flex;
+}
+
+/* nav-logo */
+#navbar .nav-logo  img  {
+ padding-right: 5px;
+}
+

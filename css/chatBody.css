@@ -1,0 +1,122 @@
+
+/* chatt-body */
+.chatt-body {
+    width: 75%;
+    background: #fff;
+    padding: 10px 0px;
+    color: white;
+    height: 565px;
+}
+
+.chat-header{
+    display: flex;
+    padding: 10px 0px;
+    padding: 5px;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(85, 82, 82, 0.281);
+    z-index: 7px;
+}
+
+.chat-header > span {
+    margin-right: 5px;
+}
+.chat-header span img {
+    height: 18px;
+}
+
+/* chatt body alert message */ 
+.chat-content {
+    height: 100%;
+   padding: 10px;
+   overflow-y: scroll;
+}
+
+.chatt-body .alert-message {
+    text-align: center;
+    display: none;
+}
+.chatt-body .alert-message span {
+    font-size: small;
+    margin-top: 20px;
+    background: grey;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* .user-display */
+.user-display{
+ margin-top: 20px;
+ width: 200px;
+ display: none;
+}
+.user-display span img,.own-display span img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.user-display  p {
+    padding-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+    background: grey;
+    display:block;
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.own-display {
+    display: flex;
+    justify-content: flex-end;  
+}
+ 
+.own-display p {
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: -80px;
+    background: grey;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.chat-box {
+    position: relative;
+    z-index: 7px;
+    background: #fff;
+    bottom: 0px;
+    padding-bottom: 20px;
+    top: -40px;
+    border-top: 1px solid rgba(133, 110, 110, 0.281);
+
+}
+
+.chat-box form input {
+    background: none;
+    border: none;
+    width: 80%;
+    outline: none;
+    padding-left: 15px;
+    position: relative;
+    align-items: center;
+    top: 14px;
+     
+}
+
+.chat-box button {
+    background: none;
+    border: none;
+    position: relative;
+    align-items: center;
+    top: 14px;
+    padding: 5px;
+}
+
+.chat-box button img{
+    height: 13px;
+}
+
+.chat-box button:nth-child(6){
+    color: blue;
+     font-size: 16px;
+}
